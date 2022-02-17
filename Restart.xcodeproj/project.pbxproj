@@ -20,6 +20,12 @@
 		B0AF9EB727BEF6250089D264 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0AF9EB327BEF6250089D264 /* chimeup.mp3 */; };
 		B0AF9EB827BEF6250089D264 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0AF9EB327BEF6250089D264 /* chimeup.mp3 */; };
 		B0AF9EB927BEF6250089D264 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0AF9EB327BEF6250089D264 /* chimeup.mp3 */; };
+		B0AF9EC027BEFE160089D264 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9EBF27BEFE160089D264 /* OnboardingView.swift */; };
+		B0AF9EC127BEFE160089D264 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9EBF27BEFE160089D264 /* OnboardingView.swift */; };
+		B0AF9EC227BEFE160089D264 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9EBF27BEFE160089D264 /* OnboardingView.swift */; };
+		B0AF9EC427BEFE250089D264 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9EC327BEFE250089D264 /* HomeView.swift */; };
+		B0AF9EC527BEFE250089D264 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9EC327BEFE250089D264 /* HomeView.swift */; };
+		B0AF9EC627BEFE250089D264 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9EC327BEFE250089D264 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,8 @@
 		B0AF9EB227BEF6250089D264 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		B0AF9EB327BEF6250089D264 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		B0AF9EBE27BEF98E0089D264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B0AF9EBF27BEFE160089D264 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B0AF9EC327BEFE250089D264 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				B0AF9E8A27BEF5430089D264 /* ContentView.swift */,
+				B0AF9EBF27BEFE160089D264 /* OnboardingView.swift */,
+				B0AF9EC327BEFE250089D264 /* HomeView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -307,6 +317,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AF9EC027BEFE160089D264 /* OnboardingView.swift in Sources */,
+				B0AF9EC427BEFE250089D264 /* HomeView.swift in Sources */,
 				B0AF9E8B27BEF5430089D264 /* ContentView.swift in Sources */,
 				B0AF9E8927BEF5430089D264 /* RestartApp.swift in Sources */,
 			);
@@ -316,7 +328,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AF9EC527BEFE250089D264 /* HomeView.swift in Sources */,
 				B0AF9E9A27BEF5440089D264 /* RestartTests.swift in Sources */,
+				B0AF9EC127BEFE160089D264 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +338,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AF9EC227BEFE160089D264 /* OnboardingView.swift in Sources */,
+				B0AF9EC627BEFE250089D264 /* HomeView.swift in Sources */,
 				B0AF9EA627BEF5440089D264 /* RestartUITestsLaunchTests.swift in Sources */,
 				B0AF9EA427BEF5440089D264 /* RestartUITests.swift in Sources */,
 			);
