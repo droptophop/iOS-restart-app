@@ -26,6 +26,9 @@
 		B0AF9EC427BEFE250089D264 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9EC327BEFE250089D264 /* HomeView.swift */; };
 		B0AF9EC527BEFE250089D264 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9EC327BEFE250089D264 /* HomeView.swift */; };
 		B0AF9EC627BEFE250089D264 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9EC327BEFE250089D264 /* HomeView.swift */; };
+		B0AF9EC827BF40A80089D264 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9EC727BF40A80089D264 /* CircleGroupView.swift */; };
+		B0AF9EC927BF40A80089D264 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9EC727BF40A80089D264 /* CircleGroupView.swift */; };
+		B0AF9ECA27BF40A80089D264 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9EC727BF40A80089D264 /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,7 @@
 		B0AF9EBE27BEF98E0089D264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B0AF9EBF27BEFE160089D264 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B0AF9EC327BEFE250089D264 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B0AF9EC727BF40A80089D264 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,7 @@
 		B0AF9EBC27BEF80D0089D264 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B0AF9EC727BF40A80089D264 /* CircleGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -317,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AF9EC827BF40A80089D264 /* CircleGroupView.swift in Sources */,
 				B0AF9EC027BEFE160089D264 /* OnboardingView.swift in Sources */,
 				B0AF9EC427BEFE250089D264 /* HomeView.swift in Sources */,
 				B0AF9E8B27BEF5430089D264 /* ContentView.swift in Sources */,
@@ -330,6 +336,7 @@
 			files = (
 				B0AF9EC527BEFE250089D264 /* HomeView.swift in Sources */,
 				B0AF9E9A27BEF5440089D264 /* RestartTests.swift in Sources */,
+				B0AF9EC927BF40A80089D264 /* CircleGroupView.swift in Sources */,
 				B0AF9EC127BEFE160089D264 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AF9ECA27BF40A80089D264 /* CircleGroupView.swift in Sources */,
 				B0AF9EC227BEFE160089D264 /* OnboardingView.swift in Sources */,
 				B0AF9EC627BEFE250089D264 /* HomeView.swift in Sources */,
 				B0AF9EA627BEF5440089D264 /* RestartUITestsLaunchTests.swift in Sources */,
