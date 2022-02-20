@@ -32,3 +32,6 @@ By using multiple movements in the opposite direction (parallax effect) we can a
 
 #### 4. SwiftUI Animation 
 
+![Icon-Small-40@3x](https://user-images.githubusercontent.com/28074009/154856469-d23c2022-ef27-47d8-b46a-6a63e816eb2a.png)
+
+
